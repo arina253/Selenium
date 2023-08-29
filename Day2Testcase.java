@@ -39,9 +39,9 @@ login.click();
 WebElement heading = driver.findElement(By.cssSelector("#header_container > div.header_secondary_container > span"));
 
 if (heading.isDisplayed()) {
-	System.out.println("Test case pass");}
+	System.out.println("Test case 1 pass");}
 	else {
-		System.out.println("Test case fail");
+		System.out.println("Test case 1  fail");
 	}
 }
 
