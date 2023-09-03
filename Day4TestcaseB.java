@@ -14,7 +14,7 @@ public class Day4TestcaseB {
 		driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
 		
 		
-		//TEST CASE2 (HAPPY PATH )
+		//TEST CASE2 (HAPPY PATH )-where a user submits the contact form with valid input.
 		
 		
 		driver.findElement(By.cssSelector("#contact_form > input:nth-child(1)")).sendKeys("arina");
@@ -62,7 +62,7 @@ public class Day4TestcaseB {
 /*************************************************************************************************************/
 		
 		
-		//TEST CASE 4)RESET
+		//TEST CASE 4)Testing the functionality of RESET button
 		
 		driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
 		

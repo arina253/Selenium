@@ -7,12 +7,13 @@ public class Day4TestcaseC {
 
 	public static void main(String[] args) {
 		
+		//TEST CASE 3)INVALID EMAIL FORMAT
+		
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
 		driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
-		
 		
 		
 		

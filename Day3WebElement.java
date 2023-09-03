@@ -46,7 +46,7 @@ public class Day3WebElement {
 		
 		firstName.clear();
 		
-		//.text();
+		//.gettext();
 		
 		//<h2 name="contactme" class="section_header">CONTACT US</h2>
 		
