@@ -9,17 +9,21 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Day12WindowHandling {
 
 	public static void main(String[] args) {
+		
+		//WindowHandling
+		
 	
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.webdriveruniversity.com/");
 		
+		//To get the first window/current handle 
 		String parentWindow = driver.getWindowHandle();
-		System.out.println(parentWindow);
+		System.out.println(parentWindow);     //get the parent window unique string
 	
 		driver.findElement(By.cssSelector("#contact-us")).click();
 		
-		Set<String>windows = driver.getWindowHandles();
+		Set<String>windows = driver.getWindowHandles();     //to get all handles
 		for (String window : windows) {
 			if(!window.equals(parentWindow)) {
 				driver.switchTo().window(window);

@@ -89,18 +89,20 @@ public class Day3WebElement {
 		boolean q4 = isSelected_radioB.isSelected();
 		System.out.println(q4);
 		
-		//true
+		//false
 		
-		WebElement isSelected_radiobutton = driver.findElement(By.cssSelector("#radio-buttons-selected-disabled > input[type=radio]:nth-child(5)"));
+		WebElement isSelected_radiobutton = driver.findElement(By.cssSelector("#radio-buttons-selected-disabled"));
 		boolean q5 = isSelected_radiobutton.isSelected();
 		System.out.println(q5);
 		
+	
+	
+}
+}	
 		
 		
-/*__________________________________________________________________________________________________*/		
-		
-		 
-	* // Webelement vs Webdriver
+
+	// Webelement vs Webdriver
 		 
 
 		//isSelected_radioB.findElement(null)
@@ -118,12 +120,12 @@ public class Day3WebElement {
 		//isSelected_radioB.submit(), it will only work on submit button of form
 		//isSelected_radioB.sendKeys(args)  // to type something on inputtext of element
 		//isSelected_radioB.getCssValue("font-weight")
-		 */
+		 
        
 
 		
 		
 		
 
-	}
-}
+	
+
