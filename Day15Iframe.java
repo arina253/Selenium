@@ -27,7 +27,7 @@ public class Day15Iframe {
 //		 
 		// Switch to iframe by index
 		driver.switchTo().frame(0); // Only one iframe is there
-
+		
 		// Finding the element defined in the iframe
 		WebElement ele = driver.findElement(By.cssSelector("div-main-nav > div > ul > li.active > a"));
 		System.out.println(ele.isDisplayed());

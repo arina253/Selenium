@@ -51,38 +51,25 @@ the time interval between consecutive checks of the condition.
 				 .pollingEvery(Duration.ofSeconds(2))  //polling time
 				 .ignoring(NoSuchElementException.class); //exemption
 		
+/*the provided code sets up a FluentWait instance to wait for a condition with
+ *  the following characteristics:
+
+It waits for a maximum of 30 seconds.
+It checks the condition every 2 seconds.
+It ignores NoSuchElementException exceptions.*/
+		
 		// Wait for a specific element to be clickable
 		
 		
-		driver.findElement(By.cssSelector("#logout_sidebar_link")).click();
+//		driver.findElement(By.cssSelector("#logout_sidebar_link")).click();
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.cssSelector("#logout_sidebar_link"))));
 		
 		// Perform actions on the element
 		element.click();
 		
 		
-		
-//		WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
-//			public WebElement apply(WebDriver driver) {
-//				return driver.findElement(By.cssSelector("#logout_sidebar_link"));
-//			}
-//	});
-//		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-
-
-		
-		
-		
-
-	}
-
+		}
 }
+
+//It's called "fluent" because you can chain different methods together to 
+//configure the wait conditions and timeouts in a more readable and flexible way.

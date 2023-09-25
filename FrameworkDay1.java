@@ -4,10 +4,10 @@ public class FrameworkDay1 {
 
 	public static void main(String[] args) {
 		
-//		Why we create framework?- 
-		Test Data management
+//		/*Why we create framework?- 
+//		        -Test Data management
 //				- Reusability- 
-		Navigations
+//	            -Navigations
 //				- Reporting- CICD
 //
 //				To Start:
@@ -30,7 +30,7 @@ public class FrameworkDay1 {
 //				- Keep the versions of code: History of the code. - Maintaining multiple branches.
 //		
 	
-	
+	*/
 	
 	}
 

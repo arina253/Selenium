@@ -30,7 +30,6 @@ public class Day13AlertModelpopup {
 		WebElement modalHeader = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.cssSelector("#myModal > div > div > div.modal-header > h4")));
 
-		
 		// Check if the modal header is displayed
 		if (modalHeader.isDisplayed()) {
 			System.out.println("Test case pass");

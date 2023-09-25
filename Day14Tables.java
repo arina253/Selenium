@@ -26,6 +26,8 @@ public class Day14Tables {
 		// Iterate rows and columns and print text of element
 		// Convert it into integer and add
 		
+		//*[@id="t01"]
+		
 		//Getting the total number of tables
 		// use "//table" to find all tables on the page.
 	    List<WebElement> tbl = driver.findElements(By.xpath("//*[table]"));   //2 tables
@@ -34,6 +36,7 @@ public class Day14Tables {
 		System.out.println(tbl.size());
 		
 		//Getting the total number of rows
+		
 		List<WebElement> rows = driver.findElements(By.xpath("//*[@id=\"t01\"]/tbody/tr"));
 		int totalRows = rows.size();
 		System.out.println(totalRows);

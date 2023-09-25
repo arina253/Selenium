@@ -15,6 +15,7 @@ public class Day11Dropdowna {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
 
+		//Automated Testing of Dropdown Selections in Selenium WebDriver
 		//Dropdown should have select tagName
 		//There are multiple ways to select: Select by Value,Select by index 
 		//and Select by visible text
