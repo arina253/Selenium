@@ -12,6 +12,15 @@ public class Day6WebElement {
 	
 		//Web operations on Web Elements
 		
+		try {
+		    // Your Selenium code to interact with the web page
+//			System.setProperty("webdriver.chrome.driver","C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
+//			ChromeDriver driver = new ChromeDriver();
+//			driver.get("https://www.wikipedia.org");
+//	 
+			
+		
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
@@ -67,6 +76,11 @@ public class Day6WebElement {
            driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
  		   Point P = el.getLocation();
  		   System.out.println(P);
+ 		   
+		} catch (org.openqa.selenium.WebDriverException e) {
+		    System.out.println("WebDriverException: " + e.getMessage());
+		    // Handle the exception, e.g., refresh the page or navigate to a different URL
+		}
  		   
  		   
  		   //driver.quit();

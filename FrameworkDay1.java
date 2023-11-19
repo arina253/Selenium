@@ -11,7 +11,7 @@ public class FrameworkDay1 {
 //				- Reporting- CICD
 //
 //				To Start:
-//				- Entry point for a framewrok- We have used testNG(testRunner) to run our test. 
+//				- Entry point for a framework- We have used testNG(testRunner) to run our test. 
 //				- Integrated framework with Cucumber.
 //
 //				To Progress:
@@ -30,7 +30,7 @@ public class FrameworkDay1 {
 //				- Keep the versions of code: History of the code. - Maintaining multiple branches.
 //		
 	
-	*/
+
 	
 	}
 

@@ -61,7 +61,7 @@ public class LocatorsHW {
 //		driver.findElement(By.className("phone-no")).sendKeys("test@yahoo.com");
 //		
 //
-//		// 4)Find by tagNam
+//		// 4)Find by tagName
 		List<WebElement> inputList = driver.findElements(By.tagName("input"));
 		inputList.get(6).sendKeys("test@yahoo.com"); // 14,match multiple elements.***
 //		

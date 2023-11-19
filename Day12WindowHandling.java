@@ -12,7 +12,10 @@ public class Day12WindowHandling {
 		
 		//WindowHandling
 		
-	
+		
+		try {
+		    // Your Selenium code to interact with the web page
+					
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.webdriveruniversity.com/");
@@ -47,6 +50,13 @@ public class Day12WindowHandling {
 		
 		driver.switchTo().window(parentWindow);
 		System.out.println(driver.getCurrentUrl());
+		
+		} 
+		
+		catch (org.openqa.selenium.WebDriverException e) {
+		    System.out.println("WebDriverException: " + e.getMessage());
+		    // Handle the exception, e.g., refresh the page or navigate to a different URL
+		}
 		
 		
 		

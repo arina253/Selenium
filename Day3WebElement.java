@@ -10,8 +10,9 @@ public class Day3WebElement {
 
 		// WebElement is a datatype and has properties and methods.
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver",
+//				"C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 
 		// WebElement Methods

@@ -14,8 +14,13 @@ public class Day2Testcase {
 		
 		// Set up WebDriver
 
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
-ChromeDriver driver = new ChromeDriver();
+//System.setProperty("webdriver.chrome.driver", "C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
+//System.setProperty("webdriver.chrome.driver","C:\\Users\\joshi\\Downloads\\chromedriver-win64\\chromedriver\\chromedriver.exe");
+//System.setProperty("webdriver.chrome.driver","C:\\Users\\joshi\\Downloads\\chromedriver\\chromedriver\\chromedriver.exe");
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\joshi\\OneDrive\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
+		
+		ChromeDriver driver = new ChromeDriver();
 
 
          //2)Selecting the elements
